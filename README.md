@@ -9,7 +9,7 @@ Repositório base para o desenvolvimento de um pipeline que execute testes unit�
 - Possui uma série de palavras-chave para diversas situações de uso, como acionamento em branches especificas;
 - A sintaxe completa do arquivo pode ser consultada na [documentação de referência](https://docs.gitlab.com/ee/ci/yaml/index.html) e seu preenchimento pode ser validado no [Editor de  Pipelines do Gitlab](https://docs.gitlab.com/ee/ci/pipeline_editor/index.html) ou através de uma extensão do [VSCode](https://marketplace.visualstudio.com/items?itemName=gitlab.gitlab-workflow).
 
-Exemplo de arquivo .gitlab-ci.yml que executa um stage chamado “test-job” exibindo o valor informado a partir do comando “echo” dentro da interface gráfica do Gitlab (menu CI/CD > Pipelines > Jobs):
+Exemplo de arquivo .gitlab-ci.yml que executa um stage chamado “test-job” exibindo o valor informado a partir do comando “echo” dentro da interface gráfica do Gitlab (menu "Build" > "Pipelines"):
 
 ```
 test-job:
@@ -20,7 +20,7 @@ test-job:
 
 ## Exercício Proposto
 
-Alterar o arquivo .gitlab-ci.yml, contemplando a execução dos testes unitários com PyUnit e validar o pipeline.
+Alterar o arquivo .gitlab-ci.yml, contemplando a execução dos testes unitários com cobertura de 100%.
 
 ## Executando a aplicação
 
