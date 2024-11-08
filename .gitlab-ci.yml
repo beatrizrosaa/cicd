@@ -1,4 +1,4 @@
 test-job:
     stage: test
     script:
-        - echo "This job tests something"
+        - python -m unittest -v tests/appTest.py 
