@@ -1,4 +1,4 @@
-# Flask App e PyUnit
+# Aula 09 - Introdução ao CI-CD
 
 Repositório base para o desenvolvimento de um pipeline que execute testes unitários, testes de segurança (SAST) e simulação de um deploy com aprovação manual, no Gitlab.
 
