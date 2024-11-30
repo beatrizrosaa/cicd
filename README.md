@@ -18,9 +18,13 @@ test-job:
         - echo "This job tests something"
 ```
 
-## Exercício Proposto
+## Exercícios Propostos
 
+### Continuos Integration
 Alterar o arquivo .gitlab-ci.yml, contemplando a execução dos testes unitários com cobertura de 100%.
+
+### Continuos Deployement
+Alterar o arquivo .gitlab-ci.yml, simulando uma implantação com aprovação manual em um stage de "deploy".
 
 ## Executando a aplicação
 
