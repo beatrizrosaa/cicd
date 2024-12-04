@@ -24,7 +24,7 @@ test-job:
 Alterar o arquivo .gitlab-ci.yml, contemplando a execução dos testes unitários com cobertura de 100%.
 
 ### Continuos Deployement
-Alterar o arquivo .gitlab-ci.yml, executando testes de segurança (SAST) e sisimulação de uma implantação com aprovação manual em um stage de "deploy".
+Alterar o arquivo .gitlab-ci.yml, executando testes de segurança (SAST), simulando de uma implantação com aprovação manual, em um stage de "deploy".
 
 ## Executando a aplicação
 
