@@ -1,6 +1,9 @@
-# Aula 09 - Introdução ao CI-CD
+# Introdução ao CI/CD
 
 Repositório base para o desenvolvimento de um pipeline que execute testes unitários, testes de segurança (SAST) e simulação de um deploy com aprovação manual, no Gitlab.
+
+O CI/CD (Continuous Integration/Continuous Deployment) é uma prática essencial no DevOps, visando acelerar o ciclo de desenvolvimento e entrega de software. A integração contínua (CI) permite a validação constante de alterações no código por meio de testes automatizados, enquanto a entrega contínua (CD) automatiza o deploy em diferentes ambientes, garantindo maior confiabilidade e agilidade no lançamento de novas funcionalidades. 
+Estas práticas promovem a colaboração entre equipes, a redução de erros em produção e o aumento da eficiência no desenvolvimento de software.
 
 # O Arquivo .gitlab-ci.yml
 
@@ -20,11 +23,14 @@ test-job:
 
 ## Exercícios Propostos
 
-### Continuos Integration
-Alterar o arquivo .gitlab-ci.yml, contemplando a execução dos testes unitários com cobertura de 100%.
+1. **Continuos Integration:**  
+Alterar o arquivo .gitlab-ci.yml, contemplando: 
+    - 1.1 Execução dos testes unitários, atingindo cobertura de 100%;
+    - 1.2 Execução dos testes estáticos de segurança (SAST - Static Application Security Testing).
 
-### Continuos Deployement
-Alterar o arquivo .gitlab-ci.yml, executando testes de segurança (SAST) e simulando uma implantação com aprovação manual, em um stage de "deploy".
+2. **Continuos Deployement:**  
+Alterar o arquivo .gitlab-ci.yml, contemplando:
+    - 2.1 Simular a implantação com aprovação manual em um stage de "deploy".
 
 ## Executando a aplicação
 
