@@ -5,5 +5,5 @@ test-job:
     script:
         - pip install flask
         - pip install coverage
-        - python -m unittest -v tests/appTest.py
+        - python -m coverage run -m unittest -v tests/appTest.py
         - python -m coverage report
