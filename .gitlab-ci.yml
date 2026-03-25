@@ -5,3 +5,4 @@ test-job:
     script:
         - pip install flask
         - python -m unittest -v tests/appTest.py
+        - python -m coverage report
