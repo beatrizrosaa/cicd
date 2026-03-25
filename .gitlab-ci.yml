@@ -3,9 +3,5 @@ image:
 test-job:
     stage: test
     script:
-        - echo "This job tests something"
-
-test-job2:
-    stage: test
-    script:
-        - echo "Executando o segundo job de teste"
+        pip install flask
+        python -m unittest -v tests/appTest.py
