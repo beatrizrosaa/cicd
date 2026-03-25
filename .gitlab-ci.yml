@@ -4,5 +4,6 @@ test-job:
     stage: test
     script:
         - pip install flask
+        - pip install coverage
         - python -m unittest -v tests/appTest.py
         - python -m coverage report
