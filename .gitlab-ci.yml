@@ -8,6 +8,6 @@ test-job:
         - python -m coverage run -m unittest -v tests/appTest.py
         - python -m coverage report
 build-job:
-1.1. stage: build
-1.2. script:
-1.3. - echo "Olá, $GITLAB_USER_LOGIN!"
+  stage: build
+  script:
+    - echo "Olá, $GITLAB_USER_LOGIN!"
