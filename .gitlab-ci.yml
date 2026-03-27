@@ -10,4 +10,13 @@ test-job:
 build-job:
   stage: build
   script:
-    - echo "Olá, $GITLAB_USER_LOGIN!"
+    - echo "Olá, $GITLAB_USER_LOGIN!"]
+deploy-prod-job:
+  stage: deploy
+  script:
+      - echo "Implantando a branch $CI_COMMIT_BRANCH em produção..."
+      - sleep 20
+      - echo "Implantação concluída com sucesso!"
+when: manual
+manual_confirmation: 'Aprovar o deploy a partir da branch
+$CI_COMMIT_BRANCH?'
