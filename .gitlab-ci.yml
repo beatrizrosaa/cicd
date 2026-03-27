@@ -19,4 +19,4 @@ deploy-prod-job:
       - echo "Implantação concluída com sucesso!"
 when: manual
 manual_confirmation: 'Aprovar o deploy a partir da branch
-$CI_COMMIT_BRANCH?'
+      -$CI_COMMIT_BRANCH?'
